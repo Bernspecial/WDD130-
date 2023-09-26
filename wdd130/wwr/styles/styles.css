@@ -51,6 +51,12 @@ nav a:hover{
 .msg{
     background-color: var(--background_color5);
 }
+.msg h2{
+    color: var(--background_color);
+}
+.msg p{
+    color: var(--background_color);
+}
 footer{
     background-color: var(--background_color);
     color: var(--background_color4);
@@ -60,10 +66,18 @@ footer{
 }
 footer a{
     text-decoration: none;
+    color: var(--text_color);
 }
 footer p{
     font-size: 1.2em;
 }
 footer p a:hover{
     text-decoration: underline;
+    color: var(--background_color5);
+}
+.home-title{
+    color: var(--background_color);
+}
+h4{
+    color: var(--background_color);
 }
