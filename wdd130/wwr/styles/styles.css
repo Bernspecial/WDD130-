@@ -23,7 +23,7 @@ header{
     background-color: var(--background_color);
 }
 nav a {
-   /* text-align: center;*/
+    text-align: center;
     color: var(--background_color4);
     text-decoration: none;
     padding: 35px;
@@ -58,7 +58,7 @@ body{
 
 nav a:hover{
     background-color: var(--text_color);
-    padding: 5px;
+    padding-block: 0;
 }
 .book, .join{
     background-color: var(--background_color);
