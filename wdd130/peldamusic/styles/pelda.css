@@ -179,6 +179,27 @@ nav a:hover{
     gap: 50px;
 }
 
+/* The Event Documentation css start from this place */
+
+.event-header{
+    text-align: center;
+    font-size: 20px;
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+    padding-bottom: 50px;
+}
+
+.event-img{
+    width: 100%;
+}
+.event-img2{
+    padding-bottom: 50px;
+}
+hr{
+    height: 3px;
+    margin: 35px 0;
+    background-color: var(--secondary-color);
+}
 /* The side-bar css example [pasted as copied] */
 
 
