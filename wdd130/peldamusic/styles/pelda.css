@@ -200,9 +200,45 @@ hr{
     margin: 35px 0;
     background-color: var(--secondary-color);
 }
+
+/* The About Us css start from this place */
+.about-us-img{
+    width: 60%;
+}
+#about-us-container{
+    display: grid;
+    margin-bottom: 50px;
+}
+#about-us-page{
+    width: 50%;
+    margin-left: 720px;
+    margin-top: -180px;
+    z-index: 1;
+    background-color: var(--nav-background-color);
+    border-radius: 10px;
+}
+#about-us-image2{
+    margin-top: -200px;
+}
+.about-us-main-page{
+    font-size: 30px;
+    font-weight: 800;
+    font-family: var(--paragraph-font);
+    color: var(--headline-color-on-color);
+    font-style: italic;
+    padding: 10px;
+}
+#peldasiteplan2{
+    color: var(--nav-hover-link-color);
+    font-style: italic;
+    text-decoration: none;
+}
+#peldasiteplan2:hover{
+    background-color: var(--accent1-color);
+    color: var(--nav-background-color);
+}
+
 /* The side-bar css example [pasted as copied] */
-
-
 /* The sidebar menu */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
